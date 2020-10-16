@@ -10,113 +10,546 @@
     <link rel="stylesheet" href="/etc.clientlibs/wknd-muzik/clientlibs/clientlib-dependencies.css" type="text/css">
 </head>
 <body class="page basicpage">
-<div class="root container responsivegrid">
-    <div class="cmp-container">
-        <header class="experiencefragment">
-            <div class="cmp-experiencefragment">
-                <div class="cmp-container">
-                    <div class="navigation">
-                        <nav class="cmp-navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
-                            <ul class="cmp-navigation__group">
-                                <li class="cmp-navigation__item cmp-navigation__item--level-0 cmp-navigation__item--active">
-                                    <a href="/content/wknd-muzik/us/en.html" title="WKND Muzik" aria-current="page" class="cmp-navigation__item-link">WKND Muzik</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="languagenavigation">
-                        <nav class="cmp-languagenavigation">
-                            <ul class="cmp-languagenavigation__group">
-                                <li class="cmp-languagenavigation__item cmp-languagenavigation__item--langcode-en cmp-languagenavigation__item--level-0">
-                                    <span class="cmp-languagenavigation__item-title" lang="en">United States</span>
-                                    <ul class="cmp-languagenavigation__group">
-                                        <li class="cmp-languagenavigation__item cmp-languagenavigation__item--langcode-en cmp-languagenavigation__item--level-1">
-                                            <a class="cmp-languagenavigation__item-link" href="/content/wknd-muzik/us/en.html" hreflang="en" lang="en" rel="alternate" title="English">English</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="search">
-                        <section class="cmp-search" role="search" data-cmp-is="search" data-cmp-min-length="3" data-cmp-results-size="10">
-                            <form class="cmp-search__form" data-cmp-hook-search="form" method="get" action="/content/wknd-muzik/us/en.searchresults.json/_jcr_content/root/search" autocomplete="off">
-                                <div class="cmp-search__field">
-                                    <i class="cmp-search__icon" data-cmp-hook-search="icon"></i>
-                                    <span class="cmp-search__loading-indicator" data-cmp-hook-search="loadingIndicator"></span>
-                                    <input class="cmp-search__input" data-cmp-hook-search="input" type="text" name="fulltext" placeholder="Search" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-invalid="false"/>
-                                    <button class="cmp-search__clear" data-cmp-hook-search="clear">
-                                        <i class="cmp-search__clear-icon"></i>
-                                    </button>
-                                </div>
-                            </form>
-                            <div class="cmp-search__results" data-cmp-hook-search="results" role="listbox" aria-multiselectable="false"></div>
-                            <script data-cmp-hook-search="itemTemplate" type="x-template">
-                                <a class="cmp-search__item" data-cmp-hook-search="item">
-                                    <span class="cmp-search__item-title" data-cmp-hook-search="itemTitle"></span>
-                                </a>
-                            </script>
-                        </section></div>
-                </div>
-            </div>
-        </header>
-        <main class="container responsivegrid">
-            <div class="cmp-container">
-                <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-                    <div class="title aem-GridColumn aem-GridColumn--default--12">
-                        <div class="cmp-title">
-                            <h1 class="cmp-title__text">Welcome to WKND Muzik!</h1>
-                        </div>
-                    </div>
-                    <div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
-                        <div class="cmp-container">
-                            <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-                                <div class="text aem-GridColumn aem-GridColumn--default--12">
-                                    <div class="cmp-text">
-                                        <p>This is the main welcome page of your web site. A few notes about this site:</p>
-                                        <ul>
-                                            <li>It is built entirely with the Core Components - see the <a href="https://www.adobe.com/go/aem_cmp_library">Component Library</a> to view the components in all their shapes and forms.</li>
-                                            <li>Only the Hello World component has been built custom to illustrate how further components can be built (which also shows how JavaScript is best initialized for components, so that it also works well with the Page Editor).</li>
-                                            <li>The page header and footer are assembled as Experience Fragments, which <a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/experience-fragment.html#localized-site-structure">can also be localized if needed</a>.<br />
-                                            </li>
-                                            <li>The Style System is used to insert a sematic &lt;header&gt; and &lt;footer&gt; element to the corresponding Experience Fragment components, as well as a &lt;main&gt; element to the container of the page content. This allows to apply some CSS specifically to these sections of the page.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="helloworld aem-GridColumn aem-GridColumn--default--12"><div class="cmp-helloworld" data-cmp-is="helloworld">
-                                    <h2 class="cmp-helloworld__title">Hello World Component</h2>
-                                    <div class="cmp-helloworld__item">
-                                        <p class="cmp-helloworld__item-label">Model message:</p>
-                                        <pre class="cmp-helloworld__item-output" data-cmp-hook-helloworld="model">Hello World!
-Resource type is: wknd-muzik/components/helloworld
-Current page is:  /content/wknd-muzik/us/en
-This is instance: 78f60b4a-a52a-4021-82d5-fb17f5fb95cf
-</pre>
-                                    </div>
-                                </div></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <footer class="experiencefragment">
-            <div class="cmp-experiencefragment">
-                <div class="cmp-container">
-                    <div class="separator">
-                        <div class="cmp-separator">
-                            <hr class="cmp-separator__horizontal-rule"/>
-                        </div></div>
-                    <div class="text">
-                        <div class="cmp-text">
-                            <p>Copyright 2019, WKND Muzik. All rights reserved.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+    <div class="root container responsivegrid">
+
+    
+    
+    
+        <div id="container-d47ea7f79c" class="cmp-container ">
+            
+            <header class="experiencefragment">
+    <div id="experiencefragment-de929a6423" class="cmp-experiencefragment cmp-experiencefragment--header">
+    
+    
+        
+        <div id="container-1fdc3811f0" class="cmp-container">
+            
+    
+    
+    <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+        
+        <div class="image cmp-image--logo aem-GridColumn--default--none aem-GridColumn aem-GridColumn--offset--default--0 aem-GridColumn--default--2">
+    <div data-cmp-lazythreshold="0" data-cmp-src="/content/experience-fragments/wknd-muzik/us/en/site/header/master/_jcr_content/root/image.coreimg{.width}.png/1602601338861/logo.png" data-asset="/content/dam/wknd-muzik/images/Logo.png" data-title="Logo" id="image-370f2e69f2" class="cmp-image" itemscope="" itemtype="http://schema.org/ImageObject">
+        
+            
+                
+                <img src="/content/experience-fragments/wknd-muzik/us/en/site/header/master/_jcr_content/root/image.coreimg.png/1602601338861/logo.png" class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="Logo">
+                
+            
+        
+        
+        
     </div>
-</div>
+    
+        
+    </div>
+    <div class="navigation aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--7 aem-GridColumn--offset--default--0">
+    <nav id="navigation-c1e15170d3" class="cmp-navigation" role="navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+        <ul class="cmp-navigation__group">
+            
+        <li class="cmp-navigation__item cmp-navigation__item--level-0" data-cmp-data-layer="{&quot;navigation-c1e15170d3-item-93dd1634d7&quot;:{&quot;@type&quot;:&quot;wknd-muzik/components/page&quot;,&quot;dc:title&quot;:&quot;Memberships&quot;,&quot;repo:modifyDate&quot;:&quot;2020-10-13T12:47:56Z&quot;,&quot;xdm:linkURL&quot;:&quot;/content/wknd-muzik/us/en/memberships.html&quot;}}">
+            
+        <a href="/content/wknd-muzik/us/en/memberships.html" title="Memberships" data-cmp-clickable="" class="cmp-navigation__item-link">Memberships</a>
+    
+            
+        </li>
+    
+        
+            
+        <li class="cmp-navigation__item cmp-navigation__item--level-0" data-cmp-data-layer="{&quot;navigation-c1e15170d3-item-5a24bc54bf&quot;:{&quot;@type&quot;:&quot;wknd-muzik/components/page&quot;,&quot;dc:title&quot;:&quot;Shows&quot;,&quot;repo:modifyDate&quot;:&quot;2020-10-13T14:34:39Z&quot;,&quot;xdm:linkURL&quot;:&quot;/content/wknd-muzik/us/en/shows.html&quot;}}">
+            
+        <a href="/content/wknd-muzik/us/en/shows.html" title="Shows" data-cmp-clickable="" class="cmp-navigation__item-link">Shows</a>
+    
+            
+        </li>
+    
+        
+            
+        <li class="cmp-navigation__item cmp-navigation__item--level-0" data-cmp-data-layer="{&quot;navigation-c1e15170d3-item-7c3c5f0a8c&quot;:{&quot;@type&quot;:&quot;wknd-muzik/components/page&quot;,&quot;dc:title&quot;:&quot;Blog&quot;,&quot;repo:modifyDate&quot;:&quot;2020-10-13T14:34:58Z&quot;,&quot;xdm:linkURL&quot;:&quot;/content/wknd-muzik/us/en/blog.html&quot;}}">
+            
+        <a href="/content/wknd-muzik/us/en/blog.html" title="Blog" data-cmp-clickable="" class="cmp-navigation__item-link">Blog</a>
+    
+            
+        </li>
+    
+        </ul>
+    </nav>
+    
+        
+    
+    </div>
+    <div class="container responsivegrid aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--offset--default--0">
+    
+        
+        
+        
+        <div id="container-be9a0cb617" class="cmp-container">
+            
+            <div class="button">
+    <button id="button-1ba683e304" class="cmp-button">
+        
+        <span class="cmp-button__icon cmp-button__icon--email"></span>
+    
+        <span class="cmp-button__text">Contact</span>
+    </button>
+    </div>
+    <div class="search">
+    <section id="search-e57f7182ef" class="cmp-search" role="search" data-cmp-min-length="3" data-cmp-results-size="10">
+        <form class="cmp-search__form" data-cmp-hook-search="form" method="get" action="/content/wknd-muzik/us/en/sign-up.searchresults.json/_jcr_content/root/container/search" autocomplete="off">
+            <div class="cmp-search__field">
+                <i class="cmp-search__icon" data-cmp-hook-search="icon"></i>
+                <span class="cmp-search__loading-indicator" data-cmp-hook-search="loadingIndicator"></span>
+                <input class="cmp-search__input" data-cmp-hook-search="input" type="text" name="fulltext" placeholder="Search" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-invalid="false" aria-owns="cmp-search-results-0">
+                <button class="cmp-search__clear" data-cmp-hook-search="clear">
+                    <i class="cmp-search__clear-icon"></i>
+                </button>
+            </div>
+        </form>
+        <div class="cmp-search__results" data-cmp-hook-search="results" role="listbox" aria-multiselectable="false" id="cmp-search-results-0"></div>
+        
+    <script data-cmp-hook-search="itemTemplate" type="x-template">
+        <a class="cmp-search__item" data-cmp-hook-search="item">
+            <span class="cmp-search__item-title" data-cmp-hook-search="itemTitle"></span>
+        </a>
+    </script>
+    </section></div>
+    <div class="languagenavigation">
+    <nav id="languagenavigation-a1c9b3edfb" class="cmp-languagenavigation">
+        <ul class="cmp-languagenavigation__group">
+            
+        <li class="cmp-languagenavigation__item cmp-languagenavigation__item--langcode-en cmp-languagenavigation__item--level-0 cmp-languagenavigation__item--active" data-cmp-data-layer="{&quot;languagenavigation-a1c9b3edfb-item-07cfc3da54&quot;:{&quot;xdm:language&quot;:&quot;en&quot;,&quot;@type&quot;:&quot;wknd-muzik/components/page&quot;,&quot;dc:title&quot;:&quot;us&quot;,&quot;repo:modifyDate&quot;:&quot;2020-10-14T12:58:14Z&quot;,&quot;xdm:linkURL&quot;:&quot;/content/wknd-muzik/us/en/sign-up.html&quot;}}">
+            
+        
+        <a data-cmp-clickable="" class="cmp-languagenavigation__item-link" href="/content/wknd-muzik/us/en/sign-up.html" hreflang="en" lang="en" rel="alternate" title="us">us</a>
+    
+            
+        </li>
+    
+        </ul>
+    </nav>
+    
+        
+    
+    </div>
+    
+            
+        </div>
+    
+    </div>
+    
+        
+    </div>
+    
+        </div>
+    
+        
+    </div>
+    
+        
+    <!--cq{"decorated":true,"type":"wknd-muzik/components/experiencefragment","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/experiencefragment-header","structurePath":"/conf/wknd-muzik/settings/wcm/templates/page-content/structure/jcr:content/root/experiencefragment-header","selectors":null,"servlet":"Script /libs/core/wcm/components/experiencefragment/v1/experiencefragment/experiencefragment.html","totalTime":120,"selfTime":120}-->
+    </header>
+    <main class="container responsivegrid">
+    
+        
+        <div id="container-aec87dc134" class="cmp-container">
+            
+    
+    
+    <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+        
+        <div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+    
+        
+        <div id="container-c68bb9e96a" class="cmp-container">
+            
+    
+    
+    <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+        
+        <div class="title cmp-title--underline cmp-title--center aem-GridColumn aem-GridColumn--default--12">
+    <div data-cmp-data-layer="{&quot;title-8fa977648e&quot;:{&quot;@type&quot;:&quot;wknd-muzik/components/title&quot;,&quot;dc:title&quot;:&quot;membership sign up&quot;,&quot;repo:modifyDate&quot;:&quot;2020-10-14T12:59:36Z&quot;}}" id="title-8fa977648e" class="cmp-title">
+        <h2 class="cmp-title__text">membership sign up</h2>
+    </div>
+    
+        
+    
+    <!--cq{"decorated":true,"type":"wknd-muzik/components/title","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/title","selectors":null,"servlet":"Script /libs/core/wcm/components/title/v2/title/title.html","totalTime":12,"selfTime":12}-->
+    <cq data-path="/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/title" data-config="{&quot;path&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/title&quot;,&quot;slingPath&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/title.html&quot;,&quot;dialog&quot;:&quot;/libs/core/wcm/components/title/v2/title/cq:dialog&quot;,&quot;dialogLoadingMode&quot;:&quot;auto&quot;,&quot;dialogLayout&quot;:&quot;auto&quot;,&quot;dialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/title/v2/title/_cq_dialog.html/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/title&quot;,&quot;designDialog&quot;:&quot;/libs/core/wcm/components/title/v2/title/cq:design_dialog&quot;,&quot;designDialogLayout&quot;:&quot;fullscreen&quot;,&quot;designDialogLoadingMode&quot;:&quot;auto&quot;,&quot;designDialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/title/v2/title/_cq_design_dialog.policydesign.editabletemplate.html/conf/wknd-muzik/settings/wcm/policies/wknd-muzik/components/title/policy_641528232375303?dialog=%2Flibs%2Fcore%2Fwcm%2Fcomponents%2Ftitle%2Fv2%2Ftitle%2Fcq%3Adesign_dialog&amp;referrer=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up&amp;policyContentPath=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Ftitle&amp;policyContentResourceType=wknd-muzik%2Fcomponents%2Ftitle&amp;policyDirectoryPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Fpolicies%2Fwknd-muzik%2Fcomponents%2Ftitle%2F&amp;policyMappingPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Ftemplates%2Fpage-content%2Fpolicies%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fwknd-muzik%2Fcomponents%2Ftitle&amp;policyMappingResourceType=wcm%2Fcore%2Fcomponents%2Fpolicies%2Fmapping&amp;policyName=policy_641528232375303&amp;policyRelativePath=wknd-muzik%2Fcomponents%2Ftitle%2Fpolicy_641528232375303&amp;resourceType=wcm%2Fcore%2Fcomponents%2Fpolicy%2Fpolicy&quot;,&quot;designDialogClassic&quot;:&quot;/libs/core/wcm/components/title/v2/title/cq:design_dialog&quot;,&quot;hasPolicyMapping&quot;:true,&quot;type&quot;:&quot;wknd-muzik/components/title&quot;,&quot;isResponsiveGrid&quot;:false,&quot;policyPath&quot;:&quot;root/container/container/wknd-muzik/components/title&quot;,&quot;csp&quot;:&quot;page|basicpage/root|container|responsivegrid/container|responsivegrid/container|responsivegrid/title&quot;,&quot;editConfig&quot;:{&quot;inplaceEditingConfig&quot;:{&quot;active&quot;:true,&quot;editorType&quot;:&quot;title&quot;,&quot;configPath&quot;:&quot;/libs/core/wcm/components/title/v2/title/cq:editConfig/cq:inplaceEditing/inplaceEditingConfig&quot;}},&quot;ipeConfig&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;titleTag&quot;:[&quot;h1&quot;,&quot;h2&quot;,&quot;h3&quot;,&quot;h4&quot;,&quot;h5&quot;,&quot;h6&quot;],&quot;inplaceEditingConfig&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;titleTag&quot;:[&quot;h1&quot;,&quot;h2&quot;,&quot;h3&quot;,&quot;h4&quot;,&quot;h5&quot;,&quot;h6&quot;]}}}"></cq>
+    </div>
+    <div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+    <form method="POST" action="/content/wknd-muzik/us/en/sign-up.html" id="new_form" name="new_form" enctype="multipart/form-data" class="cmp-form aem-Grid aem-Grid--12 aem-Grid--default--12">
+        <input type="hidden" name=":formstart" value="/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container">
+        <input type="hidden" name="_charset_" value="utf-8">
+        
+        <div class="options aem-GridColumn aem-GridColumn--default--12">
+    
+        <fieldset class="cmp-form-options cmp-form-options--radio">
+            
+                <legend class="cmp-form-options__legend">Membership</legend>
+                <label class="cmp-form-options__field-label">
+                    <input class="cmp-form-options__field cmp-form-options__field--radio" name="membership" value="10" type="radio">
+                    <span class="cmp-form-options__field-description">Tier 1 $10/month</span>
+                </label>
+    <label class="cmp-form-options__field-label">
+                    <input class="cmp-form-options__field cmp-form-options__field--radio" name="membership" value="12" checked="" type="radio">
+                    <span class="cmp-form-options__field-description">Tier 2 $12/month</span>
+                </label>
+    <label class="cmp-form-options__field-label">
+                    <input class="cmp-form-options__field cmp-form-options__field--radio" name="membership" value="15" type="radio">
+                    <span class="cmp-form-options__field-description">Tier 3 $15/month</span>
+                </label>
+    
+            
+            
+            
+        </fieldset>
+    
+    
+        
+    
+    <!--cq{"decorated":true,"type":"wknd-muzik/components/form/options","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/options","selectors":null,"servlet":"Script /libs/core/wcm/components/form/options/v2/options/options.html","totalTime":4,"selfTime":4}-->
+    <cq data-path="/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/options" data-config="{&quot;path&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/options&quot;,&quot;slingPath&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/options.html&quot;,&quot;dialog&quot;:&quot;/libs/core/wcm/components/form/options/v2/options/cq:dialog&quot;,&quot;dialogLoadingMode&quot;:&quot;auto&quot;,&quot;dialogLayout&quot;:&quot;auto&quot;,&quot;dialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/form/options/v2/options/_cq_dialog.html/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/options&quot;,&quot;designDialog&quot;:&quot;/libs/core/wcm/components/form/options/v2/options/cq:design_dialog&quot;,&quot;designDialogLayout&quot;:&quot;fullscreen&quot;,&quot;designDialogLoadingMode&quot;:&quot;auto&quot;,&quot;designDialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/form/options/v2/options/_cq_design_dialog.policydesign.editabletemplate.html/conf/wknd-muzik/settings/wcm/policies/wknd-muzik/components/form/options/policy_1378514696900?dialog=%2Flibs%2Fcore%2Fwcm%2Fcomponents%2Fform%2Foptions%2Fv2%2Foptions%2Fcq%3Adesign_dialog&amp;referrer=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up&amp;policyContentPath=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fcontainer%2Foptions&amp;policyContentResourceType=wknd-muzik%2Fcomponents%2Fform%2Foptions&amp;policyDirectoryPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Fpolicies%2Fwknd-muzik%2Fcomponents%2Fform%2Foptions%2F&amp;policyMappingPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Ftemplates%2Fpage-content%2Fpolicies%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fwknd-muzik%2Fcomponents%2Fform%2Foptions&amp;policyMappingResourceType=wcm%2Fcore%2Fcomponents%2Fpolicies%2Fmapping&amp;policyName=policy_1378514696900&amp;policyRelativePath=wknd-muzik%2Fcomponents%2Fform%2Foptions%2Fpolicy_1378514696900&amp;resourceType=wcm%2Fcore%2Fcomponents%2Fpolicy%2Fpolicy&quot;,&quot;designDialogClassic&quot;:&quot;/libs/core/wcm/components/form/options/v2/options/cq:design_dialog&quot;,&quot;type&quot;:&quot;wknd-muzik/components/form/options&quot;,&quot;isResponsiveGrid&quot;:false,&quot;policyPath&quot;:&quot;root/container/container/wknd-muzik/components/form/options&quot;,&quot;csp&quot;:&quot;page|basicpage/root|container|responsivegrid/container|responsivegrid/container|responsivegrid/container|responsivegrid/options&quot;}"></cq>
+    </div>
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+    <div data-cmp-data-layer="{&quot;text-4629fc2e1b&quot;:{&quot;@type&quot;:&quot;wknd-muzik/components/text&quot;,&quot;xdm:text&quot;:&quot;<p>Contact</p>\r\n&quot;,&quot;repo:modifyDate&quot;:&quot;2020-10-14T13:22:38Z&quot;}}" id="text-4629fc2e1b" class="cmp-text">
+        <p>Contact</p>
+    
+    </div>
+    
+        
+    
+    <!--cq{"decorated":true,"type":"wknd-muzik/components/text","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text_390976030","selectors":null,"servlet":"Script /libs/core/wcm/components/text/v2/text/text.html","totalTime":11,"selfTime":11}-->
+    <cq data-path="/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text_390976030" data-config="{&quot;path&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text_390976030&quot;,&quot;slingPath&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text_390976030.html&quot;,&quot;dialog&quot;:&quot;/libs/core/wcm/components/text/v2/text/cq:dialog&quot;,&quot;dialogLoadingMode&quot;:&quot;auto&quot;,&quot;dialogLayout&quot;:&quot;auto&quot;,&quot;dialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/text/v2/text/_cq_dialog.html/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text_390976030&quot;,&quot;designDialog&quot;:&quot;/libs/core/wcm/components/text/v2/text/cq:design_dialog&quot;,&quot;designDialogLayout&quot;:&quot;fullscreen&quot;,&quot;designDialogLoadingMode&quot;:&quot;auto&quot;,&quot;designDialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/text/v2/text/_cq_design_dialog.policydesign.editabletemplate.html/conf/wknd-muzik/settings/wcm/policies/wknd-muzik/components/text/policy_641562756958017?dialog=%2Flibs%2Fcore%2Fwcm%2Fcomponents%2Ftext%2Fv2%2Ftext%2Fcq%3Adesign_dialog&amp;referrer=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up&amp;policyContentPath=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fcontainer%2Ftext_390976030&amp;policyContentResourceType=wknd-muzik%2Fcomponents%2Ftext&amp;policyDirectoryPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Fpolicies%2Fwknd-muzik%2Fcomponents%2Ftext%2F&amp;policyMappingPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Ftemplates%2Fpage-content%2Fpolicies%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fwknd-muzik%2Fcomponents%2Ftext&amp;policyMappingResourceType=wcm%2Fcore%2Fcomponents%2Fpolicies%2Fmapping&amp;policyName=policy_641562756958017&amp;policyRelativePath=wknd-muzik%2Fcomponents%2Ftext%2Fpolicy_641562756958017&amp;resourceType=wcm%2Fcore%2Fcomponents%2Fpolicy%2Fpolicy&quot;,&quot;designDialogClassic&quot;:&quot;/libs/core/wcm/components/text/v2/text/cq:design_dialog&quot;,&quot;hasPolicyMapping&quot;:true,&quot;type&quot;:&quot;wknd-muzik/components/text&quot;,&quot;isResponsiveGrid&quot;:false,&quot;policyPath&quot;:&quot;root/container/container/wknd-muzik/components/text&quot;,&quot;csp&quot;:&quot;page|basicpage/root|container|responsivegrid/container|responsivegrid/container|responsivegrid/container|responsivegrid/text&quot;,&quot;editConfig&quot;:{&quot;inplaceEditingConfig&quot;:{&quot;active&quot;:true,&quot;editorType&quot;:&quot;text&quot;,&quot;configPath&quot;:&quot;/libs/core/wcm/components/text/v2/text/cq:editConfig/cq:inplaceEditing/inplaceEditingConfig&quot;}},&quot;ipeConfig&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;rtePlugins&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;edit&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;features&quot;:&quot;-&quot;},&quot;findreplace&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;features&quot;:&quot;-&quot;},&quot;format&quot;:{&quot;features&quot;:&quot;bold,italic&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;},&quot;image&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;features&quot;:&quot;-&quot;},&quot;justify&quot;:{&quot;features&quot;:&quot;-&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;},&quot;links&quot;:{&quot;features&quot;:&quot;modifylink,unlink&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;},&quot;lists&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;features&quot;:&quot;*&quot;},&quot;misctools&quot;:{&quot;features&quot;:&quot;-&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;specialCharsConfig&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;chars&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;item0&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;entity&quot;:&quot;&amp;copy;&quot;,&quot;name&quot;:&quot;copyright&quot;},&quot;item1&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;entity&quot;:&quot;&amp;euro;&quot;,&quot;name&quot;:&quot;euro&quot;},&quot;item2&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;entity&quot;:&quot;&amp;reg;&quot;,&quot;name&quot;:&quot;registered&quot;},&quot;item3&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;entity&quot;:&quot;&amp;trade;&quot;,&quot;name&quot;:&quot;trademark&quot;}}}},&quot;paraformat&quot;:{&quot;features&quot;:&quot;*&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;formats&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;item0&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Paragraph&quot;,&quot;tag&quot;:&quot;p&quot;},&quot;item1&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Quote&quot;,&quot;tag&quot;:&quot;blockquote&quot;},&quot;item2&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;description&quot;:&quot;Preformatted&quot;,&quot;tag&quot;:&quot;pre&quot;}}},&quot;spellcheck&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;features&quot;:&quot;-&quot;},&quot;subsuperscript&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;features&quot;:&quot;-&quot;},&quot;table&quot;:{&quot;features&quot;:&quot;-&quot;,&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;hiddenHeaderConfig&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;hiddenHeaderClassName&quot;:&quot;cq-wcm-foundation-aria-visuallyhidden&quot;}},&quot;tracklinks&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;features&quot;:&quot;*&quot;},&quot;undo&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;features&quot;:&quot;-&quot;}}}}"></cq>
+    </div>
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+    <div class="cmp-form-text">
+        
+        
+        
+        <input class="cmp-form-text__text" data-cmp-hook-form-text="input" aria-label="Name" type="text" id="form-text-391434458" placeholder="Name" name="name">
+    </div><!--cq{"decorated":true,"type":"wknd-muzik/components/form/text","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text","selectors":null,"servlet":"Script /libs/core/wcm/components/form/text/v2/text/text.html","totalTime":8,"selfTime":8}-->
+    <cq data-path="/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text" data-config="{&quot;path&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text&quot;,&quot;slingPath&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text.html&quot;,&quot;dialog&quot;:&quot;/libs/core/wcm/components/form/text/v2/text/cq:dialog&quot;,&quot;dialogLoadingMode&quot;:&quot;auto&quot;,&quot;dialogLayout&quot;:&quot;auto&quot;,&quot;dialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/form/text/v2/text/_cq_dialog.html/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text&quot;,&quot;designDialog&quot;:&quot;/libs/core/wcm/components/form/text/v2/text/cq:design_dialog&quot;,&quot;designDialogLayout&quot;:&quot;fullscreen&quot;,&quot;designDialogLoadingMode&quot;:&quot;auto&quot;,&quot;designDialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/form/text/v2/text/_cq_design_dialog.policydesign.editabletemplate.html/conf/wknd-muzik/settings/wcm/policies/wknd-muzik/components/form/text/policy_1378545555100?dialog=%2Flibs%2Fcore%2Fwcm%2Fcomponents%2Fform%2Ftext%2Fv2%2Ftext%2Fcq%3Adesign_dialog&amp;referrer=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up&amp;policyContentPath=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fcontainer%2Ftext&amp;policyContentResourceType=wknd-muzik%2Fcomponents%2Fform%2Ftext&amp;policyDirectoryPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Fpolicies%2Fwknd-muzik%2Fcomponents%2Fform%2Ftext%2F&amp;policyMappingPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Ftemplates%2Fpage-content%2Fpolicies%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fwknd-muzik%2Fcomponents%2Fform%2Ftext&amp;policyMappingResourceType=wcm%2Fcore%2Fcomponents%2Fpolicies%2Fmapping&amp;policyName=policy_1378545555100&amp;policyRelativePath=wknd-muzik%2Fcomponents%2Fform%2Ftext%2Fpolicy_1378545555100&amp;resourceType=wcm%2Fcore%2Fcomponents%2Fpolicy%2Fpolicy&quot;,&quot;designDialogClassic&quot;:&quot;/libs/core/wcm/components/form/text/v2/text/cq:design_dialog&quot;,&quot;type&quot;:&quot;wknd-muzik/components/form/text&quot;,&quot;isResponsiveGrid&quot;:false,&quot;policyPath&quot;:&quot;root/container/container/wknd-muzik/components/form/text&quot;,&quot;csp&quot;:&quot;page|basicpage/root|container|responsivegrid/container|responsivegrid/container|responsivegrid/container|responsivegrid/text&quot;}"></cq>
+    </div>
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+    <div class="cmp-form-text" data-cmp-constraint-message="Incorrect email formatting">
+        
+        
+        
+        <input class="cmp-form-text__text" data-cmp-hook-form-text="input" aria-label="Email" type="email" id="form-text-395236815" placeholder="Email" name="email">
+    </div><!--cq{"decorated":true,"type":"wknd-muzik/components/form/text","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text_1118276668","selectors":null,"servlet":"Script /libs/core/wcm/components/form/text/v2/text/text.html","totalTime":8,"selfTime":8}-->
+    <cq data-path="/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text_1118276668" data-config="{&quot;path&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text_1118276668&quot;,&quot;slingPath&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text_1118276668.html&quot;,&quot;dialog&quot;:&quot;/libs/core/wcm/components/form/text/v2/text/cq:dialog&quot;,&quot;dialogLoadingMode&quot;:&quot;auto&quot;,&quot;dialogLayout&quot;:&quot;auto&quot;,&quot;dialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/form/text/v2/text/_cq_dialog.html/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text_1118276668&quot;,&quot;designDialog&quot;:&quot;/libs/core/wcm/components/form/text/v2/text/cq:design_dialog&quot;,&quot;designDialogLayout&quot;:&quot;fullscreen&quot;,&quot;designDialogLoadingMode&quot;:&quot;auto&quot;,&quot;designDialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/form/text/v2/text/_cq_design_dialog.policydesign.editabletemplate.html/conf/wknd-muzik/settings/wcm/policies/wknd-muzik/components/form/text/policy_1378558184100?dialog=%2Flibs%2Fcore%2Fwcm%2Fcomponents%2Fform%2Ftext%2Fv2%2Ftext%2Fcq%3Adesign_dialog&amp;referrer=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up&amp;policyContentPath=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fcontainer%2Ftext_1118276668&amp;policyContentResourceType=wknd-muzik%2Fcomponents%2Fform%2Ftext&amp;policyDirectoryPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Fpolicies%2Fwknd-muzik%2Fcomponents%2Fform%2Ftext%2F&amp;policyMappingPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Ftemplates%2Fpage-content%2Fpolicies%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fwknd-muzik%2Fcomponents%2Fform%2Ftext&amp;policyMappingResourceType=wcm%2Fcore%2Fcomponents%2Fpolicies%2Fmapping&amp;policyName=policy_1378558184100&amp;policyRelativePath=wknd-muzik%2Fcomponents%2Fform%2Ftext%2Fpolicy_1378558184100&amp;resourceType=wcm%2Fcore%2Fcomponents%2Fpolicy%2Fpolicy&quot;,&quot;designDialogClassic&quot;:&quot;/libs/core/wcm/components/form/text/v2/text/cq:design_dialog&quot;,&quot;type&quot;:&quot;wknd-muzik/components/form/text&quot;,&quot;isResponsiveGrid&quot;:false,&quot;policyPath&quot;:&quot;root/container/container/wknd-muzik/components/form/text&quot;,&quot;csp&quot;:&quot;page|basicpage/root|container|responsivegrid/container|responsivegrid/container|responsivegrid/container|responsivegrid/text&quot;}"></cq>
+    </div>
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+    <div class="cmp-form-text">
+        
+        
+        
+        <input class="cmp-form-text__text" data-cmp-hook-form-text="input" aria-label="tel" type="tel" id="form-text-1932694964" placeholder="Phone" name="tel">
+    </div><!--cq{"decorated":true,"type":"wknd-muzik/components/form/text","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text_200425655","selectors":null,"servlet":"Script /libs/core/wcm/components/form/text/v2/text/text.html","totalTime":5,"selfTime":5}-->
+    <cq data-path="/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text_200425655" data-config="{&quot;path&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text_200425655&quot;,&quot;slingPath&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text_200425655.html&quot;,&quot;dialog&quot;:&quot;/libs/core/wcm/components/form/text/v2/text/cq:dialog&quot;,&quot;dialogLoadingMode&quot;:&quot;auto&quot;,&quot;dialogLayout&quot;:&quot;auto&quot;,&quot;dialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/form/text/v2/text/_cq_dialog.html/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text_200425655&quot;,&quot;designDialog&quot;:&quot;/libs/core/wcm/components/form/text/v2/text/cq:design_dialog&quot;,&quot;designDialogLayout&quot;:&quot;fullscreen&quot;,&quot;designDialogLoadingMode&quot;:&quot;auto&quot;,&quot;designDialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/form/text/v2/text/_cq_design_dialog.policydesign.editabletemplate.html/conf/wknd-muzik/settings/wcm/policies/wknd-muzik/components/form/text/policy_1378567156700?dialog=%2Flibs%2Fcore%2Fwcm%2Fcomponents%2Fform%2Ftext%2Fv2%2Ftext%2Fcq%3Adesign_dialog&amp;referrer=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up&amp;policyContentPath=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fcontainer%2Ftext_200425655&amp;policyContentResourceType=wknd-muzik%2Fcomponents%2Fform%2Ftext&amp;policyDirectoryPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Fpolicies%2Fwknd-muzik%2Fcomponents%2Fform%2Ftext%2F&amp;policyMappingPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Ftemplates%2Fpage-content%2Fpolicies%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fwknd-muzik%2Fcomponents%2Fform%2Ftext&amp;policyMappingResourceType=wcm%2Fcore%2Fcomponents%2Fpolicies%2Fmapping&amp;policyName=policy_1378567156700&amp;policyRelativePath=wknd-muzik%2Fcomponents%2Fform%2Ftext%2Fpolicy_1378567156700&amp;resourceType=wcm%2Fcore%2Fcomponents%2Fpolicy%2Fpolicy&quot;,&quot;designDialogClassic&quot;:&quot;/libs/core/wcm/components/form/text/v2/text/cq:design_dialog&quot;,&quot;type&quot;:&quot;wknd-muzik/components/form/text&quot;,&quot;isResponsiveGrid&quot;:false,&quot;policyPath&quot;:&quot;root/container/container/wknd-muzik/components/form/text&quot;,&quot;csp&quot;:&quot;page|basicpage/root|container|responsivegrid/container|responsivegrid/container|responsivegrid/container|responsivegrid/text&quot;}"></cq>
+    </div>
+    <div class="options aem-GridColumn aem-GridColumn--default--12">
+    
+        <fieldset class="cmp-form-options cmp-form-options--drop-down">
+            
+            
+                <label class="cmp-form-options__label" for="form-options-939712663">Payment Type</label>
+                <select class="cmp-form-options__field cmp-form-options__field--drop-down" name="payment-type" id="form-options-939712663">
+                    <option value="default">Payment Type</option>
+                
+                    <option value="card">Card</option>
+                
+                    <option value="paypal">Paypal</option>
+                </select>
+            
+            
+        </fieldset>
+    
+    
+        
+    
+    <!--cq{"decorated":true,"type":"wknd-muzik/components/form/options","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/options_508117919","selectors":null,"servlet":"Script /libs/core/wcm/components/form/options/v2/options/options.html","totalTime":6,"selfTime":6}-->
+    <cq data-path="/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/options_508117919" data-config="{&quot;path&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/options_508117919&quot;,&quot;slingPath&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/options_508117919.html&quot;,&quot;dialog&quot;:&quot;/libs/core/wcm/components/form/options/v2/options/cq:dialog&quot;,&quot;dialogLoadingMode&quot;:&quot;auto&quot;,&quot;dialogLayout&quot;:&quot;auto&quot;,&quot;dialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/form/options/v2/options/_cq_dialog.html/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/options_508117919&quot;,&quot;designDialog&quot;:&quot;/libs/core/wcm/components/form/options/v2/options/cq:design_dialog&quot;,&quot;designDialogLayout&quot;:&quot;fullscreen&quot;,&quot;designDialogLoadingMode&quot;:&quot;auto&quot;,&quot;designDialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/form/options/v2/options/_cq_design_dialog.policydesign.editabletemplate.html/conf/wknd-muzik/settings/wcm/policies/wknd-muzik/components/form/options/policy_1378576565800?dialog=%2Flibs%2Fcore%2Fwcm%2Fcomponents%2Fform%2Foptions%2Fv2%2Foptions%2Fcq%3Adesign_dialog&amp;referrer=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up&amp;policyContentPath=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fcontainer%2Foptions_508117919&amp;policyContentResourceType=wknd-muzik%2Fcomponents%2Fform%2Foptions&amp;policyDirectoryPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Fpolicies%2Fwknd-muzik%2Fcomponents%2Fform%2Foptions%2F&amp;policyMappingPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Ftemplates%2Fpage-content%2Fpolicies%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fwknd-muzik%2Fcomponents%2Fform%2Foptions&amp;policyMappingResourceType=wcm%2Fcore%2Fcomponents%2Fpolicies%2Fmapping&amp;policyName=policy_1378576565800&amp;policyRelativePath=wknd-muzik%2Fcomponents%2Fform%2Foptions%2Fpolicy_1378576565800&amp;resourceType=wcm%2Fcore%2Fcomponents%2Fpolicy%2Fpolicy&quot;,&quot;designDialogClassic&quot;:&quot;/libs/core/wcm/components/form/options/v2/options/cq:design_dialog&quot;,&quot;type&quot;:&quot;wknd-muzik/components/form/options&quot;,&quot;isResponsiveGrid&quot;:false,&quot;policyPath&quot;:&quot;root/container/container/wknd-muzik/components/form/options&quot;,&quot;csp&quot;:&quot;page|basicpage/root|container|responsivegrid/container|responsivegrid/container|responsivegrid/container|responsivegrid/options&quot;}"></cq>
+    </div>
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+    <div class="cmp-form-text">
+        
+        
+        
+        <input class="cmp-form-text__text" data-cmp-hook-form-text="input" aria-label="Card Number" type="text" id="form-text-709171370" placeholder="Card Number" name="card-number">
+    </div><!--cq{"decorated":true,"type":"wknd-muzik/components/form/text","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text_1500245325","selectors":null,"servlet":"Script /libs/core/wcm/components/form/text/v2/text/text.html","totalTime":7,"selfTime":7}-->
+    <cq data-path="/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text_1500245325" data-config="{&quot;path&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text_1500245325&quot;,&quot;slingPath&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text_1500245325.html&quot;,&quot;dialog&quot;:&quot;/libs/core/wcm/components/form/text/v2/text/cq:dialog&quot;,&quot;dialogLoadingMode&quot;:&quot;auto&quot;,&quot;dialogLayout&quot;:&quot;auto&quot;,&quot;dialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/form/text/v2/text/_cq_dialog.html/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/text_1500245325&quot;,&quot;designDialog&quot;:&quot;/libs/core/wcm/components/form/text/v2/text/cq:design_dialog&quot;,&quot;designDialogLayout&quot;:&quot;fullscreen&quot;,&quot;designDialogLoadingMode&quot;:&quot;auto&quot;,&quot;designDialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/form/text/v2/text/_cq_design_dialog.policydesign.editabletemplate.html/conf/wknd-muzik/settings/wcm/policies/wknd-muzik/components/form/text/policy_1378590584300?dialog=%2Flibs%2Fcore%2Fwcm%2Fcomponents%2Fform%2Ftext%2Fv2%2Ftext%2Fcq%3Adesign_dialog&amp;referrer=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up&amp;policyContentPath=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fcontainer%2Ftext_1500245325&amp;policyContentResourceType=wknd-muzik%2Fcomponents%2Fform%2Ftext&amp;policyDirectoryPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Fpolicies%2Fwknd-muzik%2Fcomponents%2Fform%2Ftext%2F&amp;policyMappingPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Ftemplates%2Fpage-content%2Fpolicies%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fwknd-muzik%2Fcomponents%2Fform%2Ftext&amp;policyMappingResourceType=wcm%2Fcore%2Fcomponents%2Fpolicies%2Fmapping&amp;policyName=policy_1378590584300&amp;policyRelativePath=wknd-muzik%2Fcomponents%2Fform%2Ftext%2Fpolicy_1378590584300&amp;resourceType=wcm%2Fcore%2Fcomponents%2Fpolicy%2Fpolicy&quot;,&quot;designDialogClassic&quot;:&quot;/libs/core/wcm/components/form/text/v2/text/cq:design_dialog&quot;,&quot;type&quot;:&quot;wknd-muzik/components/form/text&quot;,&quot;isResponsiveGrid&quot;:false,&quot;policyPath&quot;:&quot;root/container/container/wknd-muzik/components/form/text&quot;,&quot;csp&quot;:&quot;page|basicpage/root|container|responsivegrid/container|responsivegrid/container|responsivegrid/container|responsivegrid/text&quot;}"></cq>
+    </div>
+    <div class="button aem-GridColumn aem-GridColumn--default--12">
+    <button type="SUBMIT" id="form-button-2005696351" class="cmp-form-button">Submit</button>
+    <!--cq{"decorated":true,"type":"wknd-muzik/components/form/button","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/button","selectors":null,"servlet":"Script /libs/core/wcm/components/form/button/v2/button/button.html","totalTime":1,"selfTime":1}-->
+    <cq data-path="/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/button" data-config="{&quot;path&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/button&quot;,&quot;slingPath&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/button.html&quot;,&quot;dialog&quot;:&quot;/libs/core/wcm/components/form/button/v2/button/cq:dialog&quot;,&quot;dialogLoadingMode&quot;:&quot;auto&quot;,&quot;dialogLayout&quot;:&quot;auto&quot;,&quot;dialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/form/button/v2/button/_cq_dialog.html/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/button&quot;,&quot;designDialog&quot;:&quot;/libs/core/wcm/components/form/button/v2/button/cq:design_dialog&quot;,&quot;designDialogLayout&quot;:&quot;fullscreen&quot;,&quot;designDialogLoadingMode&quot;:&quot;auto&quot;,&quot;designDialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/form/button/v2/button/_cq_design_dialog.policydesign.editabletemplate.html/conf/wknd-muzik/settings/wcm/policies/wknd-muzik/components/form/button/policy_1378597016100?dialog=%2Flibs%2Fcore%2Fwcm%2Fcomponents%2Fform%2Fbutton%2Fv2%2Fbutton%2Fcq%3Adesign_dialog&amp;referrer=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up&amp;policyContentPath=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fcontainer%2Fbutton&amp;policyContentResourceType=wknd-muzik%2Fcomponents%2Fform%2Fbutton&amp;policyDirectoryPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Fpolicies%2Fwknd-muzik%2Fcomponents%2Fform%2Fbutton%2F&amp;policyMappingPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Ftemplates%2Fpage-content%2Fpolicies%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fwknd-muzik%2Fcomponents%2Fform%2Fbutton&amp;policyMappingResourceType=wcm%2Fcore%2Fcomponents%2Fpolicies%2Fmapping&amp;policyName=policy_1378597016100&amp;policyRelativePath=wknd-muzik%2Fcomponents%2Fform%2Fbutton%2Fpolicy_1378597016100&amp;resourceType=wcm%2Fcore%2Fcomponents%2Fpolicy%2Fpolicy&quot;,&quot;designDialogClassic&quot;:&quot;/libs/core/wcm/components/form/button/v2/button/cq:design_dialog&quot;,&quot;type&quot;:&quot;wknd-muzik/components/form/button&quot;,&quot;isResponsiveGrid&quot;:false,&quot;policyPath&quot;:&quot;root/container/container/wknd-muzik/components/form/button&quot;,&quot;csp&quot;:&quot;page|basicpage/root|container|responsivegrid/container|responsivegrid/container|responsivegrid/container|responsivegrid/button&quot;}"></cq>
+    </div>
+    <div class="hidden aem-GridColumn aem-GridColumn--default--12">
+    <input type="hidden" id="sling-auth-redirect-signin" name="sling.auth.redirect" value="/welcome">
+        <div class="cq-placeholder " data-emptytext="Form Hidden - name=sling.auth.redirect | value=/welcome"></div>
+    
+    <!--cq{"decorated":true,"type":"wknd-muzik/components/form/hidden","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/hidden","selectors":null,"servlet":"Script /libs/core/wcm/components/form/hidden/v2/hidden/hidden.html","totalTime":10,"selfTime":10}-->
+    <cq data-path="/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/hidden" data-config="{&quot;path&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/hidden&quot;,&quot;slingPath&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/hidden.html&quot;,&quot;dialog&quot;:&quot;/libs/core/wcm/components/form/hidden/v2/hidden/cq:dialog&quot;,&quot;dialogLoadingMode&quot;:&quot;auto&quot;,&quot;dialogLayout&quot;:&quot;auto&quot;,&quot;dialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/form/hidden/v2/hidden/_cq_dialog.html/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/hidden&quot;,&quot;designDialog&quot;:&quot;/libs/core/wcm/components/form/hidden/v2/hidden/cq:design_dialog&quot;,&quot;designDialogLayout&quot;:&quot;fullscreen&quot;,&quot;designDialogLoadingMode&quot;:&quot;auto&quot;,&quot;designDialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/form/hidden/v2/hidden/_cq_design_dialog.policydesign.editabletemplate.html/conf/wknd-muzik/settings/wcm/policies/wknd-muzik/components/form/hidden/policy_1378611187600?dialog=%2Flibs%2Fcore%2Fwcm%2Fcomponents%2Fform%2Fhidden%2Fv2%2Fhidden%2Fcq%3Adesign_dialog&amp;referrer=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up&amp;policyContentPath=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fcontainer%2Fhidden&amp;policyContentResourceType=wknd-muzik%2Fcomponents%2Fform%2Fhidden&amp;policyDirectoryPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Fpolicies%2Fwknd-muzik%2Fcomponents%2Fform%2Fhidden%2F&amp;policyMappingPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Ftemplates%2Fpage-content%2Fpolicies%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fwknd-muzik%2Fcomponents%2Fform%2Fhidden&amp;policyMappingResourceType=wcm%2Fcore%2Fcomponents%2Fpolicies%2Fmapping&amp;policyName=policy_1378611187600&amp;policyRelativePath=wknd-muzik%2Fcomponents%2Fform%2Fhidden%2Fpolicy_1378611187600&amp;resourceType=wcm%2Fcore%2Fcomponents%2Fpolicy%2Fpolicy&quot;,&quot;designDialogClassic&quot;:&quot;/libs/core/wcm/components/form/hidden/v2/hidden/cq:design_dialog&quot;,&quot;type&quot;:&quot;wknd-muzik/components/form/hidden&quot;,&quot;isResponsiveGrid&quot;:false,&quot;policyPath&quot;:&quot;root/container/container/wknd-muzik/components/form/hidden&quot;,&quot;csp&quot;:&quot;page|basicpage/root|container|responsivegrid/container|responsivegrid/container|responsivegrid/container|responsivegrid/hidden&quot;}"></cq>
+    </div>
+    
+        <div class="new newpar section aem-Grid-newComponent">
+    
+    <!--cq{"decorated":true,"type":"wcm/foundation/components/responsivegrid/new","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/*","selectors":null,"servlet":"Script /libs/wcm/foundation/components/parsys/newpar/newpar.html","totalTime":4,"selfTime":4}-->
+    <cq data-path="/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/*" data-config="{&quot;path&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/*&quot;,&quot;slingPath&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container/*.html&quot;,&quot;type&quot;:&quot;wcm/foundation/components/responsivegrid/new&quot;,&quot;isResponsiveGrid&quot;:false,&quot;csp&quot;:&quot;page|basicpage/root|container|responsivegrid/container|responsivegrid/container|responsivegrid/container|responsivegrid/new|newpar&quot;,&quot;editConfig&quot;:{&quot;actions&quot;:[&quot;CQ.wcm.EditBase.INSERT&quot;],&quot;disableTargeting&quot;:true}}"></cq>
+    </div>
+    
+    </form>
+    <!--cq{"decorated":true,"type":"wknd-muzik/components/form/container","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container","selectors":null,"servlet":"Script /libs/core/wcm/components/form/container/v2/container/container.html","totalTime":128,"selfTime":64}-->
+    <cq data-path="/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container" data-config="{&quot;path&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container&quot;,&quot;slingPath&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container.html&quot;,&quot;dialog&quot;:&quot;/libs/core/wcm/components/form/container/v2/container/cq:dialog&quot;,&quot;dialogLoadingMode&quot;:&quot;auto&quot;,&quot;dialogLayout&quot;:&quot;auto&quot;,&quot;dialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/form/container/v2/container/_cq_dialog.html/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/container&quot;,&quot;designDialog&quot;:&quot;/libs/core/wcm/components/form/container/v2/container/cq:design_dialog&quot;,&quot;designDialogLayout&quot;:&quot;fullscreen&quot;,&quot;designDialogLoadingMode&quot;:&quot;auto&quot;,&quot;designDialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/form/container/v2/container/_cq_design_dialog.policydesign.editabletemplate.html/conf/wknd-muzik/settings/wcm/policies/wknd-muzik/components/form/container/form-container?dialog=%2Flibs%2Fcore%2Fwcm%2Fcomponents%2Fform%2Fcontainer%2Fv2%2Fcontainer%2Fcq%3Adesign_dialog&amp;referrer=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up&amp;policyContentPath=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fcontainer&amp;policyContentResourceType=wknd-muzik%2Fcomponents%2Fform%2Fcontainer&amp;policyDirectoryPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Fpolicies%2Fwknd-muzik%2Fcomponents%2Fform%2Fcontainer%2F&amp;policyMappingPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Ftemplates%2Fpage-content%2Fpolicies%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer%2Fwknd-muzik%2Fcomponents%2Fform%2Fcontainer&amp;policyMappingResourceType=wcm%2Fcore%2Fcomponents%2Fpolicies%2Fmapping&amp;policyName=form-container&amp;policyRelativePath=wknd-muzik%2Fcomponents%2Fform%2Fcontainer%2Fform-container&amp;resourceType=wcm%2Fcore%2Fcomponents%2Fpolicy%2Fpolicy&quot;,&quot;designDialogClassic&quot;:&quot;/libs/core/wcm/components/form/container/v2/container/cq:design_dialog&quot;,&quot;hasPolicyMapping&quot;:true,&quot;type&quot;:&quot;wknd-muzik/components/form/container&quot;,&quot;isResponsiveGrid&quot;:true,&quot;policyPath&quot;:&quot;root/container/container/wknd-muzik/components/form/container&quot;,&quot;csp&quot;:&quot;page|basicpage/root|container|responsivegrid/container|responsivegrid/container|responsivegrid/container|responsivegrid&quot;,&quot;isContainer&quot;:true,&quot;editConfig&quot;:{&quot;listeners&quot;:{&quot;afterchilddelete&quot;:&quot;REFRESH_SELF&quot;,&quot;afterchildinsert&quot;:&quot;REFRESH_SELF&quot;}},&quot;ipeConfig&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Content Form&quot;,&quot;jcr:lastModifiedBy&quot;:&quot;admin&quot;,&quot;components&quot;:[&quot;/apps/wknd-muzik/components/text&quot;,&quot;/apps/wknd-muzik/components/title&quot;,&quot;/apps/wknd-muzik/components/form/button&quot;,&quot;/apps/wknd-muzik/components/form/hidden&quot;,&quot;/apps/wknd-muzik/components/form/options&quot;,&quot;/apps/wknd-muzik/components/form/text&quot;],&quot;jcr:description&quot;:&quot;Allows the form components to be dropped into this form container.&quot;,&quot;jcr:lastModified&quot;:&quot;java.util.GregorianCalendar[time=1602681705843,areFieldsSet=true,areAllFieldsSet=true,lenient=false,zone=sun.util.calendar.ZoneInfo[id=\&quot;GMT+05:30\&quot;,offset=19800000,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2020,MONTH=9,WEEK_OF_YEAR=42,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=288,DAY_OF_WEEK=4,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=6,HOUR_OF_DAY=18,MINUTE=51,SECOND=45,MILLISECOND=843,ZONE_OFFSET=19800000,DST_OFFSET=0]&quot;,&quot;sling:resourceType&quot;:&quot;wcm/core/components/policy/policy&quot;,&quot;jcr:content&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;}}}"></cq>
+    </div>
+    
+        <div class="new newpar section aem-Grid-newComponent">
+    
+    <!--cq{"decorated":true,"type":"wcm/foundation/components/responsivegrid/new","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/*","selectors":null,"servlet":"Script /libs/wcm/foundation/components/parsys/newpar/newpar.html","totalTime":4,"selfTime":4}-->
+    <cq data-path="/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/*" data-config="{&quot;path&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/*&quot;,&quot;slingPath&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/*.html&quot;,&quot;type&quot;:&quot;wcm/foundation/components/responsivegrid/new&quot;,&quot;isResponsiveGrid&quot;:false,&quot;csp&quot;:&quot;page|basicpage/root|container|responsivegrid/container|responsivegrid/container|responsivegrid/new|newpar&quot;,&quot;editConfig&quot;:{&quot;actions&quot;:[&quot;CQ.wcm.EditBase.INSERT&quot;],&quot;disableTargeting&quot;:true}}"></cq>
+    </div>
+    
+    </div>
+    <!--cq{"decorated":true,"type":"wcm/foundation/components/responsivegrid","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container/no_resource_0","selectors":null,"servlet":"Script /libs/wcm/foundation/components/responsivegrid/responsivegrid.html","totalTime":169,"selfTime":25}-->
+    
+        </div>
+    
+        
+    <!--cq{"decorated":true,"type":"wknd-muzik/components/container","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container","selectors":null,"servlet":"Script /libs/core/wcm/components/container/v1/container/container.html","totalTime":175,"selfTime":6}-->
+    <cq data-path="/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container" data-config="{&quot;path&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container&quot;,&quot;slingPath&quot;:&quot;/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container.html&quot;,&quot;dialog&quot;:&quot;/libs/core/wcm/components/container/v1/container/cq:dialog&quot;,&quot;dialogLoadingMode&quot;:&quot;auto&quot;,&quot;dialogLayout&quot;:&quot;auto&quot;,&quot;dialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/container/v1/container/_cq_dialog.html/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/container&quot;,&quot;designDialog&quot;:&quot;/libs/core/wcm/components/container/v1/container/cq:design_dialog&quot;,&quot;designDialogLayout&quot;:&quot;fullscreen&quot;,&quot;designDialogLoadingMode&quot;:&quot;auto&quot;,&quot;designDialogSrc&quot;:&quot;/mnt/override/libs/core/wcm/components/container/v1/container/_cq_design_dialog.policydesign.editabletemplate.html/conf/wknd-muzik/settings/wcm/policies/wknd-muzik/components/container/policy_1574695586800?dialog=%2Flibs%2Fcore%2Fwcm%2Fcomponents%2Fcontainer%2Fv1%2Fcontainer%2Fcq%3Adesign_dialog&amp;referrer=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up&amp;policyContentPath=%2Fcontent%2Fwknd-muzik%2Fus%2Fen%2Fsign-up%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer&amp;policyContentResourceType=wknd-muzik%2Fcomponents%2Fcontainer&amp;policyDirectoryPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Fpolicies%2Fwknd-muzik%2Fcomponents%2Fcontainer%2F&amp;policyMappingPath=%2Fconf%2Fwknd-muzik%2Fsettings%2Fwcm%2Ftemplates%2Fpage-content%2Fpolicies%2Fjcr%3Acontent%2Froot%2Fcontainer%2Fcontainer&amp;policyMappingResourceType=wcm%2Fcore%2Fcomponents%2Fpolicies%2Fmapping&amp;policyName=policy_1574695586800&amp;policyRelativePath=wknd-muzik%2Fcomponents%2Fcontainer%2Fpolicy_1574695586800&amp;resourceType=wcm%2Fcore%2Fcomponents%2Fpolicy%2Fpolicy&quot;,&quot;designDialogClassic&quot;:&quot;/libs/core/wcm/components/container/v1/container/cq:design_dialog&quot;,&quot;hasPolicyMapping&quot;:true,&quot;type&quot;:&quot;wknd-muzik/components/container&quot;,&quot;isResponsiveGrid&quot;:true,&quot;policyPath&quot;:&quot;root/container/container&quot;,&quot;csp&quot;:&quot;page|basicpage/root|container|responsivegrid/container|responsivegrid/container|responsivegrid&quot;,&quot;isContainer&quot;:true,&quot;editConfig&quot;:{&quot;listeners&quot;:{&quot;afterchildinsert&quot;:&quot;function(editable){Granite.author.responsive.EditableActions.REFRESH.execute(editable)}&quot;},&quot;structure&quot;:true},&quot;ipeConfig&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;jcr:title&quot;:&quot;Page Content&quot;,&quot;components&quot;:[&quot;group:WKND Muzik - Content&quot;,&quot;/apps/wknd-muzik/components/form/container&quot;],&quot;jcr:description&quot;:&quot;Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor).&quot;,&quot;sling:resourceType&quot;:&quot;wcm/core/components/policy/policy&quot;,&quot;jcr:content&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;},&quot;cq:authoring&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;assetToComponentMapping&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;mapping_1575030255082&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;resourceType&quot;:&quot;wknd-muzik/components/image&quot;,&quot;assetMimetype&quot;:&quot;image/*&quot;,&quot;droptarget&quot;:&quot;image&quot;,&quot;assetGroup&quot;:&quot;media&quot;},&quot;mapping_1575030260142&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;resourceType&quot;:&quot;wknd-muzik/components/experiencefragment&quot;,&quot;assetMimetype&quot;:&quot;text/html&quot;,&quot;droptarget&quot;:&quot;experiencefragment&quot;,&quot;assetGroup&quot;:&quot;content&quot;},&quot;mapping_1575030269139&quot;:{&quot;jcr:primaryType&quot;:&quot;nt:unstructured&quot;,&quot;resourceType&quot;:&quot;wknd-muzik/components/contentfragment&quot;,&quot;assetMimetype&quot;:[&quot;text/html&quot;,&quot;application/vnd.adobe.contentfragment&quot;],&quot;droptarget&quot;:&quot;contentfragment&quot;,&quot;assetGroup&quot;:&quot;media&quot;}}}}}"></cq>
+    </div>
+    
+        <div class="new newpar section aem-Grid-newComponent">
+    
+    <!--cq{"decorated":true,"type":"wcm/foundation/components/responsivegrid/new","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/*","structurePath":"/conf/wknd-muzik/settings/wcm/templates/page-content/structure/jcr:content/root/container/*","selectors":null,"servlet":"Script /libs/wcm/foundation/components/parsys/newpar/newpar.html","totalTime":8,"selfTime":8}-->
+    </div>
+    
+    </div>
+    <!--cq{"decorated":true,"type":"wcm/foundation/components/responsivegrid","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/container/no_resource_0","structurePath":"/conf/wknd-muzik/settings/wcm/templates/page-content/structure/jcr:content/root/container/no_resource_0","selectors":null,"servlet":"Script /libs/wcm/foundation/components/responsivegrid/responsivegrid.html","totalTime":210,"selfTime":27}-->
+    
+        </div>
+    
+        
+    <!--cq{"decorated":true,"type":"wknd-muzik/components/container","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/container","structurePath":"/conf/wknd-muzik/settings/wcm/templates/page-content/structure/jcr:content/root/container","selectors":null,"servlet":"Script /libs/core/wcm/components/container/v1/container/container.html","totalTime":214,"selfTime":4}-->
+    </main>
+    <footer class="experiencefragment">
+    <div id="experiencefragment-971ff9a2db" class="cmp-experiencefragment cmp-experiencefragment--footer">
+    
+    
+        
+        <div id="container-ccd40d5179" class="cmp-container">
+            
+    
+    
+    <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+        
+        <div class="navigation cmp-navigation--footer aem-GridColumn--default--none aem-GridColumn aem-GridColumn--offset--default--0 aem-GridColumn--default--2">
+    <nav id="navigation-ee756aecad" class="cmp-navigation" role="navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+        <ul class="cmp-navigation__group">
+            
+        <li class="cmp-navigation__item cmp-navigation__item--level-0" data-cmp-data-layer="{&quot;navigation-ee756aecad-item-93dd1634d7&quot;:{&quot;@type&quot;:&quot;wknd-muzik/components/page&quot;,&quot;dc:title&quot;:&quot;Memberships&quot;,&quot;repo:modifyDate&quot;:&quot;2020-10-13T12:47:56Z&quot;,&quot;xdm:linkURL&quot;:&quot;/content/wknd-muzik/us/en/memberships.html&quot;}}">
+            
+        <a href="/content/wknd-muzik/us/en/memberships.html" title="Memberships" data-cmp-clickable="" class="cmp-navigation__item-link">Memberships</a>
+    
+            
+        <ul class="cmp-navigation__group">
+            
+        <li class="cmp-navigation__item cmp-navigation__item--level-1" data-cmp-data-layer="{&quot;navigation-ee756aecad-item-16615a6e04&quot;:{&quot;@type&quot;:&quot;wknd-muzik/components/page&quot;,&quot;dc:title&quot;:&quot;Pricing&quot;,&quot;repo:modifyDate&quot;:&quot;2020-10-13T12:48:13Z&quot;,&quot;xdm:linkURL&quot;:&quot;/content/wknd-muzik/us/en/memberships/pricing.html&quot;}}">
+            
+        <a href="/content/wknd-muzik/us/en/memberships/pricing.html" title="Pricing" data-cmp-clickable="" class="cmp-navigation__item-link">Pricing</a>
+    
+            
+        </li>
+    
+        
+            
+        <li class="cmp-navigation__item cmp-navigation__item--level-1" data-cmp-data-layer="{&quot;navigation-ee756aecad-item-366a47669f&quot;:{&quot;@type&quot;:&quot;wknd-muzik/components/page&quot;,&quot;dc:title&quot;:&quot;FAQ&quot;,&quot;repo:modifyDate&quot;:&quot;2020-10-13T12:48:32Z&quot;,&quot;xdm:linkURL&quot;:&quot;/content/wknd-muzik/us/en/memberships/faq.html&quot;}}">
+            
+        <a href="/content/wknd-muzik/us/en/memberships/faq.html" title="FAQ" data-cmp-clickable="" class="cmp-navigation__item-link">FAQ</a>
+    
+            
+        </li>
+    
+        
+            
+        <li class="cmp-navigation__item cmp-navigation__item--level-1" data-cmp-data-layer="{&quot;navigation-ee756aecad-item-776ab89339&quot;:{&quot;@type&quot;:&quot;wknd-muzik/components/page&quot;,&quot;dc:title&quot;:&quot;Sign in&quot;,&quot;repo:modifyDate&quot;:&quot;2020-10-13T12:48:49Z&quot;,&quot;xdm:linkURL&quot;:&quot;/content/wknd-muzik/us/en/memberships/sign-in.html&quot;}}">
+            
+        <a href="/content/wknd-muzik/us/en/memberships/sign-in.html" title="Sign in" data-cmp-clickable="" class="cmp-navigation__item-link">Sign in</a>
+    
+            
+        </li>
+    
+        
+            
+        <li class="cmp-navigation__item cmp-navigation__item--level-1" data-cmp-data-layer="{&quot;navigation-ee756aecad-item-4a4ffb61a3&quot;:{&quot;@type&quot;:&quot;wknd-muzik/components/page&quot;,&quot;dc:title&quot;:&quot;Devices&quot;,&quot;repo:modifyDate&quot;:&quot;2020-10-13T12:49:04Z&quot;,&quot;xdm:linkURL&quot;:&quot;/content/wknd-muzik/us/en/memberships/devices.html&quot;}}">
+            
+        <a href="/content/wknd-muzik/us/en/memberships/devices.html" title="Devices" data-cmp-clickable="" class="cmp-navigation__item-link">Devices</a>
+    
+            
+        </li>
+    
+        </ul>
+    
+        </li>
+    
+        </ul>
+    </nav>
+    
+        
+    
+    </div>
+    <div class="navigation cmp-navigation--footer aem-GridColumn--default--none aem-GridColumn aem-GridColumn--offset--default--0 aem-GridColumn--default--2">
+    <nav id="navigation-f0707f0c64" class="cmp-navigation" role="navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+        <ul class="cmp-navigation__group">
+            
+        <li class="cmp-navigation__item cmp-navigation__item--level-0" data-cmp-data-layer="{&quot;navigation-f0707f0c64-item-93dd1634d7&quot;:{&quot;@type&quot;:&quot;wknd-muzik/components/page&quot;,&quot;dc:title&quot;:&quot;Memberships&quot;,&quot;repo:modifyDate&quot;:&quot;2020-10-13T12:47:56Z&quot;,&quot;xdm:linkURL&quot;:&quot;/content/wknd-muzik/us/en/memberships.html&quot;}}">
+            
+        <a href="/content/wknd-muzik/us/en/memberships.html" title="Memberships" data-cmp-clickable="" class="cmp-navigation__item-link">Memberships</a>
+    
+            
+        <ul class="cmp-navigation__group">
+            
+        <li class="cmp-navigation__item cmp-navigation__item--level-1" data-cmp-data-layer="{&quot;navigation-f0707f0c64-item-16615a6e04&quot;:{&quot;@type&quot;:&quot;wknd-muzik/components/page&quot;,&quot;dc:title&quot;:&quot;Pricing&quot;,&quot;repo:modifyDate&quot;:&quot;2020-10-13T12:48:13Z&quot;,&quot;xdm:linkURL&quot;:&quot;/content/wknd-muzik/us/en/memberships/pricing.html&quot;}}">
+            
+        <a href="/content/wknd-muzik/us/en/memberships/pricing.html" title="Pricing" data-cmp-clickable="" class="cmp-navigation__item-link">Pricing</a>
+    
+            
+        </li>
+    
+        
+            
+        <li class="cmp-navigation__item cmp-navigation__item--level-1" data-cmp-data-layer="{&quot;navigation-f0707f0c64-item-366a47669f&quot;:{&quot;@type&quot;:&quot;wknd-muzik/components/page&quot;,&quot;dc:title&quot;:&quot;FAQ&quot;,&quot;repo:modifyDate&quot;:&quot;2020-10-13T12:48:32Z&quot;,&quot;xdm:linkURL&quot;:&quot;/content/wknd-muzik/us/en/memberships/faq.html&quot;}}">
+            
+        <a href="/content/wknd-muzik/us/en/memberships/faq.html" title="FAQ" data-cmp-clickable="" class="cmp-navigation__item-link">FAQ</a>
+    
+            
+        </li>
+    
+        
+            
+        <li class="cmp-navigation__item cmp-navigation__item--level-1" data-cmp-data-layer="{&quot;navigation-f0707f0c64-item-776ab89339&quot;:{&quot;@type&quot;:&quot;wknd-muzik/components/page&quot;,&quot;dc:title&quot;:&quot;Sign in&quot;,&quot;repo:modifyDate&quot;:&quot;2020-10-13T12:48:49Z&quot;,&quot;xdm:linkURL&quot;:&quot;/content/wknd-muzik/us/en/memberships/sign-in.html&quot;}}">
+            
+        <a href="/content/wknd-muzik/us/en/memberships/sign-in.html" title="Sign in" data-cmp-clickable="" class="cmp-navigation__item-link">Sign in</a>
+    
+            
+        </li>
+    
+        
+            
+        <li class="cmp-navigation__item cmp-navigation__item--level-1" data-cmp-data-layer="{&quot;navigation-f0707f0c64-item-4a4ffb61a3&quot;:{&quot;@type&quot;:&quot;wknd-muzik/components/page&quot;,&quot;dc:title&quot;:&quot;Devices&quot;,&quot;repo:modifyDate&quot;:&quot;2020-10-13T12:49:04Z&quot;,&quot;xdm:linkURL&quot;:&quot;/content/wknd-muzik/us/en/memberships/devices.html&quot;}}">
+            
+        <a href="/content/wknd-muzik/us/en/memberships/devices.html" title="Devices" data-cmp-clickable="" class="cmp-navigation__item-link">Devices</a>
+    
+            
+        </li>
+    
+        </ul>
+    
+        </li>
+    
+        </ul>
+    </nav>
+    
+        
+    
+    </div>
+    <div class="navigation cmp-navigation--footer aem-GridColumn--default--none aem-GridColumn aem-GridColumn--offset--default--0 aem-GridColumn--default--2">
+    <nav id="navigation-35a802373b" class="cmp-navigation" role="navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+        <ul class="cmp-navigation__group">
+            
+        <li class="cmp-navigation__item cmp-navigation__item--level-0" data-cmp-data-layer="{&quot;navigation-35a802373b-item-5a24bc54bf&quot;:{&quot;@type&quot;:&quot;wknd-muzik/components/page&quot;,&quot;dc:title&quot;:&quot;Shows&quot;,&quot;repo:modifyDate&quot;:&quot;2020-10-13T14:34:39Z&quot;,&quot;xdm:linkURL&quot;:&quot;/content/wknd-muzik/us/en/shows.html&quot;}}">
+            
+        <a href="/content/wknd-muzik/us/en/shows.html" title="Shows" data-cmp-clickable="" class="cmp-navigation__item-link">Shows</a>
+    
+            
+        </li>
+    
+        </ul>
+    </nav>
+    
+        
+    
+    </div>
+    <div class="container responsivegrid cmp-container--btn-list aem-GridColumn--default--none aem-GridColumn aem-GridColumn--default--5 aem-GridColumn--offset--default--0">
+    
+        
+        
+        
+        <div id="container-3db589ae21" class="cmp-container">
+            
+            <div class="button cmp-button--icononly">
+    <a id="button-ad3438639e" class="cmp-button" href="#instagramwkndmuzik">
+        
+        <span class="cmp-button__icon cmp-button__icon--instagram"></span>
+    
+        <span class="cmp-button__text">Instagram</span>
+    </a>
+    </div>
+    <div class="button cmp-button--icononly">
+    <a id="button-9104aff9c3" class="cmp-button" href="#twitterwkndmuzik">
+        
+        <span class="cmp-button__icon cmp-button__icon--twitter"></span>
+    
+        <span class="cmp-button__text">Twitter</span>
+    </a>
+    </div>
+    <div class="button cmp-button--icononly">
+    <a id="button-9f80a65148" class="cmp-button" href="#facebookwknd">
+        
+        <span class="cmp-button__icon cmp-button__icon--facebook"></span>
+    
+        <span class="cmp-button__text">Facebook</span>
+    </a>
+    </div>
+    
+            
+        </div>
+    
+    </div>
+    <div class="button cmp-button--icononly aem-GridColumn--default--none aem-GridColumn aem-GridColumn--offset--default--0 aem-GridColumn--default--1">
+    <button id="button-71e0bdac53" class="cmp-button">
+        
+        <span class="cmp-button__icon cmp-button__icon--up-arrow"></span>
+    
+        <span class="cmp-button__text">Top</span>
+    </button>
+    </div>
+    <div class="separator aem-GridColumn aem-GridColumn--default--12">
+    <div id="separator-9f099d293f" class="cmp-separator">
+        <hr class="cmp-separator__horizontal-rule">
+    </div></div>
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+    <div id="text-a454012605" class="cmp-text">
+        <p>© 2020 Demo Site. Intended only as a demonstration of Adobe Experience Manager</p>
+    
+    </div>
+    
+        
+    
+    </div>
+    
+        
+    </div>
+    
+        </div>
+    
+        
+    </div>
+    
+        
+    <!--cq{"decorated":true,"type":"wknd-muzik/components/experiencefragment","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/experiencefragment-footer","structurePath":"/conf/wknd-muzik/settings/wcm/templates/page-content/structure/jcr:content/root/experiencefragment-footer","selectors":null,"servlet":"Script /libs/core/wcm/components/experiencefragment/v1/experiencefragment/experiencefragment.html","totalTime":180,"selfTime":180}-->
+    </footer>
+    
+            <div class="new newpar section">
+    
+    <!--cq{"decorated":true,"type":"core/wcm/components/container/v1/container/new","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root/*","structurePath":"/conf/wknd-muzik/settings/wcm/templates/page-content/structure/jcr:content/root/*","selectors":null,"servlet":"Script /libs/wcm/foundation/components/parsys/newpar/newpar.html","totalTime":2,"selfTime":2}-->
+    </div>
+    
+        </div>
+    
+    <!--cq{"decorated":true,"type":"wknd-muzik/components/container","path":"/content/wknd-muzik/us/en/sign-up/jcr:content/root","structurePath":"/conf/wknd-muzik/settings/wcm/templates/page-content/structure/jcr:content/root","selectors":null,"servlet":"Script /libs/core/wcm/components/container/v1/container/container.html","totalTime":558,"selfTime":42}-->
+    </div>
 <script type="text/javascript" src="/etc.clientlibs/wknd-muzik/clientlibs/clientlib-site.js"></script>
 <script type="text/javascript" src="/etc.clientlibs/wknd-muzik/clientlibs/clientlib-base.js"></script>
 </body>

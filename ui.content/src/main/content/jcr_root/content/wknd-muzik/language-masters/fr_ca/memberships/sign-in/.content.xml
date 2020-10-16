@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-10-16T19:23:22.924+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastTranslationUpdate="{Date}2020-10-16T19:23:22.924+05:30"
+        cq:template="/conf/wknd-muzik/settings/wcm/templates/page-content"
+        cq:translationSourcePath="/content/wknd-muzik/language-masters/en/memberships/sign-in"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Sign in"
+        sling:resourceType="wknd-muzik/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd-muzik/components/container">
+            <container
+                jcr:lastModified="{Date}2020-10-12T18:24:12.392+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd-muzik/components/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:lastModified="{Date}2020-10-12T18:24:21.011+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-muzik/components/container"
+                    layout="responsiveGrid"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -10,25 +10,92 @@
         jcr:title="Header"
         sling:resourceType="wknd-muzik/components/xfpage">
         <root
+            jcr:lastModified="{Date}2020-10-12T13:14:42.095+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd-muzik/components/container"
-            layout="simple">
+            layout="responsiveGrid">
+            <image
+                cq:styleIds="[1602660019102]"
+                jcr:created="{Date}2020-10-12T12:05:26.172+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-10-16T19:40:59.733+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd-muzik/components/image"
+                alt="Logo"
+                altValueFromDAM="false"
+                displayPopupTitle="true"
+                fileReference="/content/dam/wknd-muzik/images/Logo.png"
+                isDecorative="false"
+                linkURL="/content/wknd-muzik/language-masters/en/home"
+                titleValueFromDAM="false">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="2"/>
+                </cq:responsive>
+            </image>
             <navigation
+                jcr:lastModified="{Date}2020-10-16T19:40:46.957+05:30"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd-muzik/components/navigation"
                 collectAllPages="false"
-                navigationRoot="/content/wknd-muzik/us/en"
+                disableShadowing="false"
+                navigationRoot="/content/wknd-muzik/language-masters/en"
                 skipNavigationRoot="false"
-                structureDepth="1"/>
-            <languagenavigation
+                structureDepth="1"
+                structureStart="1">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="7"/>
+                </cq:responsive>
+            </navigation>
+            <container
+                cq:styleIds="[1602829457123]"
+                jcr:created="{Date}2020-10-13T17:59:56.993+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-10-13T17:59:56.993+05:30"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd-muzik/components/languagenavigation"
-                navigationRoot="/content/wknd-muzik/us"
-                structureDepth="2"/>
-            <search
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wknd-muzik/components/search"
-                searchRoot="/content/wknd-muzik/us"/>
+                sling:resourceType="wknd-muzik/components/container">
+                <button
+                    jcr:created="{Date}2020-10-13T18:00:04.930+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-10-16T19:37:34.101+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Contact"
+                    sling:resourceType="wknd-muzik/components/button"
+                    icon="email"
+                    link="/content/wknd-muzik/language-masters/en/contact"/>
+                <search
+                    jcr:created="{Date}2020-10-13T18:00:33.287+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-10-13T18:00:33.287+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-muzik/components/search"/>
+                <languagenavigation
+                    jcr:created="{Date}2020-10-13T18:00:49.031+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-10-16T19:38:56.910+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-muzik/components/languagenavigation"
+                    navigationRoot="/content/wknd-muzik"
+                    structureDepth="2"/>
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="3"/>
+                </cq:responsive>
+            </container>
         </root>
     </jcr:content>
 </jcr:root>

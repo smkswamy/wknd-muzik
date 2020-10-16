@@ -2,3 +2,18 @@
 .cmp-image__link {}
 .cmp-image__image {}
 .cmp-image__title {}
+
+.cmp-image--logo {
+    .cmp-image__link {
+        border: none;
+    }
+    .cmp-image__image {
+
+    }
+
+    /* Disable lazy loading for logo */
+    .cmp-image  .cmp-image__image--is-loading {
+        background-color: unset;
+        background-image: none;
+    }
+}

@@ -7,6 +7,8 @@
         jcr:primaryType="cq:PageContent"
         sling:resourceType="wknd-muzik/components/xfpage">
         <root
+            jcr:lastModified="{Date}2020-10-13T18:36:27.071+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd-muzik/components/container"
             editable="{Boolean}true"/>

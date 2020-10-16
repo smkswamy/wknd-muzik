@@ -1,6 +1,8 @@
-.cmp-tabs {}
-.cmp-tabs__tablist {}
-.cmp-tabs__tab {}
-.cmp-tabs__tab--active {}
-.cmp-tabs__tabpanel {}
-.cmp-tabs__tabpanel--active {}
+.cmp-tabs__tab--active {
+    background: $color-blue;
+    border: none;
+    border-radius: 8px;
+    font: normal normal bold 14px/18px Montserrat;
+    text-transform: uppercase;
+    align-self: center;
+}

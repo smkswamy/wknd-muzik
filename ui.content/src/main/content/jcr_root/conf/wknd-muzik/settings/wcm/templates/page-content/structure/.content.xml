@@ -13,16 +13,16 @@
             <experiencefragment-header
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd-muzik/components/experiencefragment"
-                fragmentVariationPath="/content/experience-fragments/wknd-muzik/language-masters/en/site/header/master"/>
+                fragmentVariationPath="/content/experience-fragments/wknd-muzik/us/en/site/header/master"/>
             <container
+                jcr:lastModified="{Date}2020-10-12T18:24:12.392+05:30"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd-muzik/components/container"
                 layout="responsiveGrid">
-                <title
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wknd-muzik/components/title"
-                    editable="{Boolean}true"/>
                 <container
+                    jcr:lastModified="{Date}2020-10-12T18:20:52.348+05:30"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd-muzik/components/container"
                     editable="{Boolean}true"/>
@@ -30,7 +30,7 @@
             <experiencefragment-footer
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd-muzik/components/experiencefragment"
-                fragmentVariationPath="/content/experience-fragments/wknd-muzik/language-masters/en/site/footer/master"/>
+                fragmentVariationPath="/content/experience-fragments/wknd-muzik/us/en/site/footer/master"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">

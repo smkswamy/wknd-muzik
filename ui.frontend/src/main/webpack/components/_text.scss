@@ -1,2 +1,7 @@
-.cmp-text {}
-.cmp-text__paragraph {}
+.cmp-text__paragraph {
+    font: normal normal normal 16px/26px Montserrat;
+}
+
+.cmp-text--center { 
+    text-align: center;
+}

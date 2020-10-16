@@ -1,1 +1,75 @@
-.cmp-form {}
+.cmp-form {
+    padding-left: 30%;
+
+    .cmp-form-options--radio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cmp-form-options {
+        border: none;
+        padding-left: 0;
+    }
+    .cmp-form-options__legend, .cmp-text {
+        text-transform: uppercase;
+        font: normal normal bold 14px/18px Montserrat;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    .cmp-form-text {
+        input {
+            color: $color-foreground;
+            border: 1px solid $color-white-border;
+            border-radius: 5px;
+            width: 320px;
+            height: 45px;
+            padding: 5px 10px;
+            background: $color-background;
+            margin-bottom: 20px;
+        }
+    }
+    .cmp-form-options--drop-down {
+        .cmp-form-options__label {
+            display: none;
+        }
+        select {
+            color: $color-foreground;
+            border: 1px solid $color-white-border;
+            border-radius: 5px;
+            width: 340px;
+            height: 55px;
+            padding: 5px 10px;
+            background: $color-background;
+            margin-bottom: 20px;
+        }
+    }
+
+    .cmp-form-button {
+        width: 492px;
+        height: 48px;
+        justify-content: center;
+        text-transform: uppercase;
+        color: $color-white;
+        font-size: $font-size-small;
+        background-color: $color-blue;
+        font-weight: $font-weight-bold;
+        float: left;
+        letter-spacing: 2.4px;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        border: none;
+        border-radius: 8px;
+        margin: 20px 0;
+        font: normal normal bold 19px/23px Montserrat;
+        letter-spacing: 3.8px;
+        .cmp-button__text {
+            padding: 1rem 2rem;
+        }
+      
+        &:hover {
+          cursor: pointer;
+        }
+    }
+       
+}

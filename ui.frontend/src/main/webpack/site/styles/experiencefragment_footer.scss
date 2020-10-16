@@ -2,15 +2,20 @@
 //== XF Footer style, used on page template
 
 footer.experiencefragment {
-    padding: .5em 1em;
-    border-top: 1px solid $color-foreground;
+    .cmp-container--btn-list {
+        display: flex !important;
+        justify-content: center;
+    }
 
     @media (prefers-color-scheme: dark) {
         border-color: $color-foreground-dark;
     }
 
     .cmp-separator__horizontal-rule {
-        margin: 0;
-        border: 0;
+        border-color: $color-white-light;
+    }
+
+    .cmp-text {
+        color: $color-white-light;
     }
 }

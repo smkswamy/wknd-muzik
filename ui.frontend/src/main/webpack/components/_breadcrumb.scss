@@ -1,5 +1,44 @@
-.cmp-breadcrumb {}
-.cmp-breadcrumb__list {}
-.cmp-breadcrumb__item {}
-.cmp-breadcrumb__item--active {}
-.cmp-breadcrumb__item-link {}
+.cmp-breadcrumb {
+    display: inline-block;
+    margin: 20px 20px 45px;
+}
+
+.cmp-breadcrumb__list {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.cmp-breadcrumb__item-link:after {
+    content: " ";
+    display: inline-block;
+    background-image: url('../resources/images/Icon-right-arrow.svg');
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+}
+
+.cmp-breadcrumb__item:last-child:after {
+    .cmp-breadcrumb__item-link {
+        content: none;
+    }
+}
+
+.cmp-breadcrumb__item-link {
+    text-decoration: underline;
+}
+.cmp-breadcrumb__item--active {
+    text-decoration: underline;
+}
+.cmp-breadcrumb__item:after {
+    color: #cdcdcd
+}
+
+.cmp-breadcrumb__item-link {
+    color: #cdcdcd
+}
+
+.cmp-breadcrumb__item-link:hover {
+    color: #f5f5f5
+}

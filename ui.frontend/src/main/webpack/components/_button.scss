@@ -1,4 +1,96 @@
-.cmp-button {}
-.cmp-button__text {}
-.cmp-button__icon {}
-//.cmp-button__icon--myIcon {}
+.button {
+    display:flex;
+}
+
+.cmp-button {
+    text-transform: uppercase;
+    color: $color-white;
+    font-size: $font-size-small;
+    background-color: $color-black;
+    font-weight: $font-weight-bold;
+    float: left;
+    font-family: normal normal bold 12px/15px Montserrat;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    border: 1px solid;
+    border-radius: .1875rem;
+    display: flex;
+    align-items: center;
+
+    .cmp-button__text {
+        float:left;
+    }
+}
+
+// primary variation
+.cmp-button--primary {
+    .cmp-button {
+        background-color: $color-blue;
+    }
+}
+
+// secondary variation
+.cmp-button--secondary {
+    .cmp-button {
+        background-color: $color-white-light;
+    }
+}
+
+/* Default icons */
+.cmp-button {
+    .cmp-button__icon {
+        float: left;
+        padding-left: 14px;
+        font-size: 1.25em;
+        width: 10px;
+        height: 10px;
+        background-repeat: no-repeat;
+    }
+    .cmp-button__icon--facebook {
+        background-image: url('../resources/images/Facebook.svg');
+    }
+    .cmp-button__icon--twitter {
+        background-image: url('../resources/images/Twitter.svg');
+    }
+    .cmp-button__icon--instagram {
+        background-image: url('../resources/images/Instagram.svg');
+    }
+    .cmp-button__icon--email {
+        background-image: url('../resources/images/Icon-material-email.svg');
+    }
+    .cmp-button__icon--up-arrow {
+        background-image: url('../resources/images/up-arrow.svg');
+        height: 20px !important;
+        cursor: pointer;
+    }
+}
+
+.cmp-button--icononly {
+    .cmp-button {
+        border: none;
+        width: 14px;
+        height: 14px;
+        .cmp-button__icon {
+            float: left;
+            width: 100%;
+            height: 100%;
+        }
+        .cmp-button__text {
+            display: none;
+        }
+    }
+}
+
+.cmp-button--center {
+    justify-content: center;
+    margin: 110px 0;
+    .cmp-button {
+        border: none;
+        border-radius: 8px;
+        font: normal normal bold 19px/23px Montserrat;
+        letter-spacing: 3.8px;
+        .cmp-button__text {
+            padding: 1rem 2rem;
+        }
+    }
+}

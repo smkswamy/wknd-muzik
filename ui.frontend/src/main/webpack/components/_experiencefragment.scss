@@ -1,2 +1,15 @@
 .cmp-experiencefragment {}
 // .cmp-experiencefragment--<name> {}
+
+header.cmp-experiencefragment--header .cmp-languagenavigation:before {
+    content: " ";
+    display: block;
+    height: 1.5em;
+    background-image: url('../resources/images/Web.svg');
+    background-repeat: no-repeat;
+}
+
+.cmp-experiencefragment--footer {
+    background-color: $color-black-dark;
+    padding-top: 85px;
+}

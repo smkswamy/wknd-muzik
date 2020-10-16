@@ -1,18 +1,58 @@
 
 //== Font
 
-$font-family:           "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-size:             16px;
+$font-family:           "Montserrat", Helvetica, Arial, sans-serif;
+$font-size:               16px;
+$font-size-base:          16px;
+$font-size-large:         24px;
+$font-size-xlarge:        48px;
+$font-size-medium:		  19px;
+$font-size-small:         14px;
+$font-size-xsmall:		  12px;
+
+$font-size-h1:            60px;
+$font-size-h2:            41px; 
+$font-size-h3:            24px; 
+$font-size-h4:            16px; 
+$font-size-h5:            14px;
+$font-size-h6:            10px; 
+
 $font-height:           1.5;
 
+$font-weight-light:      300;
+$font-weight-normal:     normal;
+$font-weight-semi-bold:  400;
+$font-weight-bold:       600;
+
 //== Color
+$color-black:           #0E0F13;
+$color-blue:            #3C55F0;
+$color-grey:            #00000029;
+$color-white:           #FFFFFF;
+$color-white-light:     #FFFFFF80;
+$color-black-dark:      #171717;
+$color-white-border:    #E6E6E6;
 
 // Normal mode
-$color-foreground:      #202020;
-$color-background:      #ECECEC;
+$color-foreground:      $color-white;
+$color-background:      $color-black;
 $color-link:            #2020E0;
 
 // Dark mode
 $color-foreground-dark: invert($color-foreground);
 $color-background-dark: invert($color-background);
 $color-link-dark:       invert($color-link);
+
+//layout
+$gutter-padding: 14px;
+
+$max-width: 1164px;
+$max-body-width: 1680px;
+$screen-xsmall: 475px;
+$screen-small: 767px;
+$screen-medium: 1024px;
+$screen-large: 1200px;
+
+//=== Page Layout
+$header-height: 65px;
+$header-mobile-height: 130px;
